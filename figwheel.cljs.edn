@@ -1,0 +1,6 @@
+{:main                  fmf-player.core
+ :asset-path            "/js/out"
+ :output-dir            "resources/public/js/out"
+ :output-to             "resources/public/js/app.js"
+ :optimizations         :none
+ :parallel-build        true}

@@ -1,0 +1,11 @@
+{:paths ["src" "resources" "target"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}}
+ :aliases {:cljs/build
+           {:extra-deps {org.clojure/clojurescript {:mvn/version "1.10.866"}}
+            :main-opts ["-m" "cljs.main" "-co" "build.cljs.edn" "-c"]}
+
+           :figwheel
+           {:extra-deps {org.clojure/clojurescript {:mvn/version "1.10.866"}
+                         com.bhauman/figwheel-main {:mvn/version "0.2.13"}
+                         com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}}
+            :main-opts ["-m" "figwheel.main" "--build" "figwheel" "--repl"]}}}

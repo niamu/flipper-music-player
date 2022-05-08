@@ -1,0 +1,8 @@
+{:main                 fmf-player.core
+ :output-dir           "resources/public/js/out"
+ :output-to            "resources/public/js/app.js"
+ :optimizations        :advanced
+ :infer-externs        true
+ :pretty-print         false
+ :parallel-build       true
+ :source-map-timestamp true}
