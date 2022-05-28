@@ -4,7 +4,7 @@ This repository is a web implementation in Clojure(Script) to parse and play Fli
 
 This project is a port of the [Flipper Zero firmware](https://github.com/flipperdevices/flipperzero-firmware/tree/dev/applications/music_player) music player that supports playing **FMF** files which are closely related to RTTTL files created by [skotopes](https://github.com/skotopes).
 
-[Try it out](https://github.com/niamu/flipper-music-player) by selecting files which you can download from the [resources](https://github.com/niamu/flipper-music-player/tree/main/resources) directory.
+[Try it out](https://niamu.github.io/flipper-music-player/) by selecting files which you can download from the [resources](https://github.com/niamu/flipper-music-player/tree/main/resources) directory.
 
 ## License
 
